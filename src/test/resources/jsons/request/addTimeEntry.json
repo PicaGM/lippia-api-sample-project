@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "Content-Type": "application/json",
+    "x-api-key": "{{api.key}}"
+  },
+
+  "endpoint": "/workspaces/6532bafc671f3c6ed91e3332/time-entries",
+  "url": "{{base.url}}",
+
+  "body": {
+    "start": "2024-06-27T09:00:00Z",
+    "end": "2024-06-27T17:00:00Z",
+    "billable": true,
+    "description": "ProjectoFinal",
+    "projectId": "6660db4e114db803b8dd508b"
+  }
+}

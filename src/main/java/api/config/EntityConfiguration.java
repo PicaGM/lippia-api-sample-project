@@ -1,6 +1,7 @@
 package api.config;
 
-import services.CreateEntryService;
+import services.AddTimeEntryService;
+import services.DeleteEntryService;
 import services.EditEntryService;
 import services.TimeEntryService;
 
@@ -17,10 +18,16 @@ public enum EntityConfiguration {
             return EditEntryService.class;
         }
     },
-    CREATE_ENTRY {
+    ADD_TIME {
         @Override
         public Class<?> getEntityService() {
-            return CreateEntryService.class;
+            return AddTimeEntryService.class;
+        }
+    },
+    DELETE_ENTRY {
+        @Override
+        public Class<?> getEntityService() {
+            return DeleteEntryService.class;
         }
     };
 
