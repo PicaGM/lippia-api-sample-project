@@ -1,13 +1,12 @@
 package api.config;
 
-import services.UserService;
+import services.TimeEntryService;
 
 public enum EntityConfiguration {
-
-    USER {
+    TIME {
         @Override
         public Class<?> getEntityService() {
-            return UserService.class;
+            return TimeEntryService.class;
         }
     };
 
