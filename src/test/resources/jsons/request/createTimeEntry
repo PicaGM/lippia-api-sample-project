@@ -1,0 +1,10 @@
+{
+  "headers": {
+    "Content-Type": "application/json",
+    "x-api-key": "{{api.key}}"
+  },
+  "endpoint": "/workspaces/6532bafc671f3c6ed91e3332/time-entries/667ca932df8d5921b3dc0dba",
+  "url": "{{base.url}}",
+  "body": {
+  "start": "2020-01-01T00:00:00Z"
+  }
